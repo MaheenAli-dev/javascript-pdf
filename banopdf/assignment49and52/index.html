@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #more {display: none;}
+        table {
+            border-collapse: collapse;
+            width: 100%;
+          }
+          th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+          }
+          th {
+            background-color: #f2f2f2;
+          }
+          button {
+            padding: 5px 10px;
+          }
+          form {
+            display: none;
+          }
+      </style>
+</head>
+<body>
+    <!-- <h1>Signup Form</h1>
+
+  <form id="signupForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+    <br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+    <br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" required>
+    <br><br>
+    <button type="submit">Sign Up</button>
+  </form>
+
+  <div id="formData"></div> -->
+
+
+
+  <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+
+<button onclick="myFunction()" id="myBtn">Read more</button> -->
+
+
+
+<h1>Student Details</h1>
+
+  <form id="studentForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+    <br><br>
+    <label for="age">Age:</label>
+    <input type="number" id="age" required>
+    <br><br>
+    <label for="grade">Grade:</label>
+    <input type="text" id="grade" required>
+    <br><br>
+    <button type="submit">Add Student</button>
+  </form>
+
+  <table id="studentTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Grade</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+  <form id="editForm">
+    <h2>Edit Student</h2>
+    <input type="hidden" id="editIndex">
+    <label for="editName">Name:</label>
+    <input type="text" id="editName" required>
+    <br><br>
+    <label for="editAge">Age:</label>
+    <input type="number" id="editAge" required>
+    <br><br>
+    <label for="editGrade">Grade:</label>
+    <input type="text" id="editGrade" required>
+    <br><br>
+    <button type="submit">Save Changes</button>
+    <button type="button" id="cancelEdit">Cancel</button>
+  </form>
+<script src="./java.js"></script>
+</body>
+</html>
